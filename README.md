@@ -28,3 +28,6 @@ Xnew = [[-0.75, 2.0]]
 # write code to create a logistic regression model and train it on X and y 
 # then use the model to predict the label of Xnew coordinate
 ```
+
+**Q4.** [1 point] Use `make_blobs` function to create a set of 5 new points with 2 centers and containing 2 features each.  Classify the new points using the Logistic Regression model trained in Q3 and print out the prediction results.
+
