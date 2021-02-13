@@ -9,9 +9,19 @@ from sklearn.datasets.samples_generator import make_blobs
 X, y = make_blobs(n_samples=100, centers=2, n_features=2, random_state=1)
 ```
 
-**Q2.** [1 point] The scatter plot above should produce 2 groups of points with separate colors assigned by the default 'viridis' mapping.  Create a new list `label_color_map` containing 2 color strings as shown below, then fill the list `label_colors` with 100 colors assigned blue or red according to whether corresponding variable in array `y` is 0 or 1.  Plot the graph above again, this time assigning color variable `c=label_colors`.  You can use `append()` command to add correct colors to `label_colors` list. The result should be the same scatter plot as above with all points in either red or blue.   
+**Q2.** [1 point] The scatter plot above should produce 2 groups of points with separate colors assigned by the default 'viridis' mapping.  Create a new list `label_color_map` containing 2 color strings as shown below, then fill the list `label_colors` with 100 colors assigned blue or red according to whether corresponding value in array `y` is 0 or 1.  Plot the graph above again, this time assigning color variable `c=label_colors`.  You can use `append()` command to add correct colors to `label_colors` list. The result should be the same scatter plot as above with all points in either red or blue.   
 
 ```python
 label_color_map = ['red', 'blue']
 label_colors = []  # empty list of colors
+# write code to fill in label_colors with colors corresponding to values in y array
+```
+
+**Q3.** [2 points] Create a Logistic Regression model and train it on data contained in `X` and `y`.  Using the list `Xnew` containing one 2-dimensional coordinate specified below, run prediction to classify the label that the new coordinate belongs to and print out the results.
+
+```python
+from sklearn.linear_model import LogisticRegression
+Xnew = [[-0.75, 2.0]]
+# write code to create a logistic regression model and train it on X and y 
+# then use the model to predict the label of Xnew coordinate
 ```
