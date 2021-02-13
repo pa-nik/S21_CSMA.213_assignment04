@@ -9,3 +9,9 @@ from sklearn.datasets.samples_generator import make_blobs
 X, y = make_blobs(n_samples=100, centers=2, n_features=2, random_state=1)
 ```
 
+**Q2.** [1 point] The scatter plot above should produce 2 groups of points with separate colors assigned by the default 'viridis' mapping.  Create a new list `label_color_map` containing 2 color strings as shown below, then fill the list `label_colors` with 100 colors assigned blue or red according to whether corresponding variable in array `y` is 0 or 1.  Plot the graph above again, this time assigning color variable `c=label_colors`.  You can use `append()` command to add correct colors to `label_colors` list. The result should be the same scatter plot as above with all points in either red or blue.   
+
+```python
+label_color_map = ['red', 'blue']
+label_colors = []  # empty list of colors
+```
