@@ -35,11 +35,19 @@ Xnew = [[-0.75, 2.0]]
 
 The second half of the assignment deals with conditional probability and Bayes Theorem, building up to the application of Naive Bayes classifier included in `sklearn` Machine Learning library.
 
-**Q5.** [1 point] Let's assume you rolled two dice 3 times, producing the following sequence of results that we can define as sets `A` and `B`.  What sequence of numbers would be in set `C` that is the union of `A` and `B` (`C = A ∪ B`)?  If set `D` is the intersection of `A` and `B` (`C = A ∩ B`), what is the result?
+**Q5.** [1 point] Let's assume you rolled two dice 3 times, producing the following sequence of results that we can define as sets `A` and `B`.  What sequence of numbers would be in set `C` that is the union of `A` and `B` (`C = A ∪ B`)?  If set `D` is the intersection of `A` and `B` (`D = A ∩ B`), what is the result?
 
 ```python
 A = { 1, 4, 3 }
 B = { 2, 1, 5 }
-C = A ∪ B = ?
-C = A ∩ B = ?
+C = { A ∪ B } = ?
+D = { A ∩ B } = ?
+```
+
+**Q6.** Given a roll of two fair dice, what is the probability of getting a number that is even **and** greater than 3?  Start by definining the sets `A` and `B` for each sequence of numbers that correspond to desired outcome.  Next, define probabilities `P(A)` and `P(B)` based on the fact that each dice has 6 sides.  Finally, solve for probability of `A` given that `B` occurred `P(A|B) =  { A ∩ B }  / { B }`
+
+```python
+P(A) = ?
+P(B) = ?
+P(A|B) = { A ∩ B }  / { B } = ?
 ```
