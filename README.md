@@ -56,4 +56,4 @@ P(A|B) = { A ∩ B }  / { B } = ?
 
 Let's say rainy days start off cloudy 50% of the time and about 20% of all days start cloudy.  If this month tends to be rainy 10% of the time, what is the chance of rain during any day this month?
 
-Start by defining probablilities for rain (`P(Rain)`), clouds (`P(Cloudy)`), and probability of it being cloudy given that rain happens (`P(Cloudy|Rain)`).  Then solve for `P(Rain|Cloudy)`.
+Start by defining probablilities for rain `P(Rain)`, clouds `P(Cloudy)`, and probability of it being cloudy given that rain happens `P(Cloudy|Rain)`.  Then solve for `P(Rain|Cloudy)`.
