@@ -44,10 +44,16 @@ C = { A ∪ B } = ?
 D = { A ∩ B } = ?
 ```
 
-**Q6.** Given a roll of two fair dice, what is the probability of getting a number that is even **and** greater than 3?  Start by definining the sets `A` and `B` for each sequence of numbers that correspond to desired outcome.  Next, define probabilities `P(A)` and `P(B)` based on the fact that each dice has 6 sides.  Finally, solve for probability of `A` given that `B` occurred `P(A|B) =  { A ∩ B }  / { B }`
+**Q6.** [1 point] Given a roll of two fair dice, what is the probability of getting a number that is even **and** greater than 3?  Start by definining the sets `A` and `B` for each sequence of numbers that correspond to desired outcome.  Next, define probabilities `P(A)` and `P(B)` based on the fact that each dice has 6 sides.  Finally, solve for probability of `A` given that `B` occurred `P(A|B) =  { A ∩ B }  / { B }`
 
 ```python
 P(A) = ?
 P(B) = ?
 P(A|B) = { A ∩ B }  / { B } = ?
 ```
+
+**Q7.** [1 point] Bayes Theorem for calculating conditional probability of some event `A` (`P(A)`) given probability of event `B` (`P(B)`) can be written as `P(A|B) = P(B|A) * P(A) / P(B)`.  Use this formula to calculate the conditional probability for the question below.
+
+Let's say rainy days start off cloudy 50% of the time and about 20% of all days start cloudy.  If this month tends to be rainy 10% of the time, what is the chance of rain during any day this month?
+
+Start by defining probablilities for rain (`P(Rain)`), clouds (`P(Cloudy)`), and probability of it being cloudy given that rain happens (`P(Cloudy|Rain)`).  Then solve for `P(Rain|Cloudy)`.
