@@ -31,3 +31,15 @@ Xnew = [[-0.75, 2.0]]
 
 **Q4.** [1 point] Use `make_blobs` function to create a set of 5 new points with 2 centers and containing 2 features each.  Classify the new points using the Logistic Regression model trained in Q3 and print out the prediction results.
 
+---
+
+The second half of the assignment deals with conditional probability and Bayes Theorem, building up to the application of Naive Bayes classifier included in `sklearn` Machine Learning library.
+
+**Q5.** [1 point] Let's assume you rolled two dice 3 times, producing the following sequence of results that we can define as sets `A` and `B`.  What sequence of numbers would be in set `C` that is the union of `A` and `B` (`C = A ∪ B`)?  If set `D` is the intersection of `A` and `B` (`C = A ∩ B`), what is the result?
+
+```python
+A = { 1, 4, 3 }
+B = { 2, 1, 5 }
+C = A ∪ B = ?
+C = A ∩ B = ?
+```
