@@ -7,7 +7,7 @@ For this week's assignment, you'll work with Machine Learning libraries and func
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
-from sklearn.datasets.samples_generator import make_blobs
+from sklearn.datasets import make_blobs
 X, y = make_blobs(n_samples=100, centers=2, n_features=2, random_state=1)
 # create a scatter plot of X and y data as specified in the instructions
 ```
