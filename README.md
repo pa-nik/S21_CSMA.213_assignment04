@@ -79,7 +79,7 @@ from sklearn import metrics
 
 # load iris dataset:
 iris = load_iris() 
-# load iris flower data into X and flower target (class) into y arrays:
+# assign iris flower data into X and flower target (class) into y arrays:
 X = iris.data 
 y = iris.target 
 # split X and y into training and testing sets:
